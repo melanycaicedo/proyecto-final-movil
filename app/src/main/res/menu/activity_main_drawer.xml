@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/iniico"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/premiumiico"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@mipmap/albumico"
+            android:title="@string/menu_slideshow" />
+<!--        <item-->
+<!--            android:id="@+id/nav_albumes"-->
+<!--            android:icon="@mipmap/albumico"-->
+<!--            android:title="@string/menu_albumes" />-->
+        <item
+            android:id="@+id/nav_cerrar"
+            android:icon="@mipmap/cerrarico"
+            android:title="@string/menu_cerrar" />
+    </group>
+</menu>
